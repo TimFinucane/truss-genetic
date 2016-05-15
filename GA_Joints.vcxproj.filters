@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Genetic.h">
+      <Filter>Genetic</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticItem.h">
+      <Filter>Genetic</Filter>
+    </ClInclude>
+    <ClInclude Include="Truss.h">
+      <Filter>Truss</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Truss</Filter>
+    </ClInclude>
+    <ClInclude Include="Dimensional.h">
+      <Filter>Truss</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutations.h">
+      <Filter>Truss</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Genetic">
+      <UniqueIdentifier>{39c8b6f0-34d5-49af-bc71-452f615f9a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Truss">
+      <UniqueIdentifier>{1aae996a-241e-43b7-b910-b5969a3ac0cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Truss.cpp">
+      <Filter>Truss</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutations.cpp">
+      <Filter>Truss</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Random.cpp" />
+  </ItemGroup>
+</Project>
