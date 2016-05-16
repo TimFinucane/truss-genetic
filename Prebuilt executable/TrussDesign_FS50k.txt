@@ -1,0 +1,65 @@
+Using seed of: 41456
+Node 0: -222.178, -72.7495
+Node 1: -126.676, 26.4312
+Node 2: -108.739, -76.6456
+Node 3: -54.7112, -69.7374
+Node 4: -20.2883, 98.4952
+Node 5: 3.74188, -41.4047
+Node 6: 19.3737, 106.678
+Node 7: 83.7433, -26.5924
+Node 8: 135.631, 101.805
+Node 9: 231, 0
+Node 0 connected to Node 1 using 2 sticks.
+	Proportion of force = -0.663938 (compression).
+	Length of member = 137.687mm.
+Node 0 connected to Node 2 using 1 sticks.
+	Proportion of force = 0.540597 (tension).
+	Length of member = 113.506mm.
+Node 1 connected to Node 2 using 1 sticks.
+	Proportion of force = -0.0870183 (compression).
+	Length of member = 104.626mm.
+Node 1 connected to Node 3 using 1 sticks.
+	Proportion of force = -0.0977751 (compression).
+	Length of member = 120.114mm.
+Node 1 connected to Node 4 using 2 sticks.
+	Proportion of force = -0.850841 (compression).
+	Length of member = 128.497mm.
+Node 1 connected to Node 5 using 1 sticks.
+	Proportion of force = 0.357787 (tension).
+	Length of member = 147.005mm.
+Node 2 connected to Node 3 using 1 sticks.
+	Proportion of force = 0.529638 (tension).
+	Length of member = 54.468mm.
+Node 3 connected to Node 7 using 1 sticks.
+	Proportion of force = 0.488919 (tension).
+	Length of member = 145.021mm.
+Node 4 connected to Node 5 using 1 sticks.
+	Proportion of force = 0.325165 (tension).
+	Length of member = 141.949mm.
+Node 4 connected to Node 6 using 1 sticks.
+	Proportion of force = -0.775485 (compression).
+	Length of member = 40.4974mm.
+Node 5 connected to Node 6 using 1 sticks.
+	Proportion of force = 0.474002 (tension).
+	Length of member = 148.906mm.
+Node 5 connected to Node 7 using 1 sticks.
+	Proportion of force = 0.166991 (tension).
+	Length of member = 81.3611mm.
+Node 6 connected to Node 7 using 2 sticks.
+	Proportion of force = -0.322969 (compression).
+	Length of member = 148.002mm.
+Node 6 connected to Node 8 using 2 sticks.
+	Proportion of force = -0.569761 (compression).
+	Length of member = 116.359mm.
+Node 7 connected to Node 8 using 2 sticks.
+	Proportion of force = -0.439914 (compression).
+	Length of member = 138.486mm.
+Node 7 connected to Node 9 using 1 sticks.
+	Proportion of force = 0.330955 (tension).
+	Length of member = 149.639mm.
+Node 8 connected to Node 9 using 2 sticks.
+	Proportion of force = -0.591572 (compression).
+	Length of member = 139.498mm.
+Total span = 458.981mm.
+And middle point at: 228.084mm from left.
+Total of 10 nodes, 17 members, and 23 popsicle sticks.

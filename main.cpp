@@ -7,14 +7,15 @@
 #include <fstream>
 #include <time.h>
 
-const unsigned int TIME = 1800; // Time in seconds to run for.
-const unsigned int FAMILY_SIZE = 50000; // Normal family size is at 300. The larger values mean more randomness but slower running
+const unsigned int TIME = 600; // Time in seconds to run for.
+// Normal family size is at 300. The larger values mean more randomness but potentially slower (only potentially due to an increase in convergence per iteration )
+const unsigned int FAMILY_SIZE = 500000;
 
 GeneticAlgorithm<Truss> algorithm;
 
 int main()
 {
-    // Create example truss
+    // Create example trusses
     Truss exa;
     {
         auto a = exa.nodes.insert( Node( -231.0, 0.0 ) ).first;

@@ -38,13 +38,14 @@ public:
     };
     typedef std::vector<Safety> Safeties;
 
-    static constexpr double MAX_TRUSS_LENGTH = 465.0;
-    static constexpr double MAX_MEMBER_LENGTH = 150.0;
-    static constexpr Newton MAXIMUM_TENSION = 250.0;
-    static constexpr Newton MAXIMUM_COMPRESSION( double thickness, double length )
+    static constexpr double		MAX_TRUSS_LENGTH = 465.0;
+    static constexpr double		MAX_MEMBER_LENGTH = 150.0;
+    static constexpr Newton		MAXIMUM_TENSION = 250.0;
+    static constexpr Newton		MAXIMUM_COMPRESSION( double thickness, double length )
     {
         return (740000.0 / (length * length)) * (thickness > 1.1 ? (thickness > 2.1 ? 26.0 : 8.0) : 1.0);
     }
+	static const unsigned int	MAX_THICKNESS = 6; // Maximum thickness of sum of members at a node.
 public:   
     Truss()
         : memberCount( 0 ), thicknessSum( 0.0 )

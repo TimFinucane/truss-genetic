@@ -1,0 +1,6 @@
+v1.01
+ - Made the maximum thickness of a node into a constant contained in the truss class.
+    Ensures that members do not get thickened to the point that the node is unbuildable.
+	Current value is set at 6 for convenience of builder.
+v1.0
+ - First uploaded version of application. In reasonable working order

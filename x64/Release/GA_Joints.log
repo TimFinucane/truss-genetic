@@ -1,0 +1,11 @@
+﻿  main.cpp
+  Mutations.cpp
+Mutations.cpp(132): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+Mutations.cpp(133): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Random.cpp
+  Truss.cpp
+  Generating code
+  All 1293 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GA_Joints.vcxproj -> H:\Documents\git\truss-genetic\x64\Release\GA_Joints.exe
+  GA_Joints.vcxproj -> H:\Documents\git\truss-genetic\x64\Release\GA_Joints.pdb (Full PDB)

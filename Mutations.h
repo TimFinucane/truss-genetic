@@ -4,7 +4,7 @@
 
 void    addNode( Truss* truss );
 void    removeNode( Truss* truss );
-void    switchMember( Truss* truss );
+//void    switchMember( Truss* truss ); NOT COMPLETED
 void    moveNode( Truss* truss );
 void    thicken( Truss* truss );
 

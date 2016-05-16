@@ -140,7 +140,7 @@ void    thicken( Truss* truss )
                 bThickness += (int)(i->thickness);
             }
 
-            if( aThickness >= 5 || bThickness >= 5 )
+            if( aThickness >= Truss::MAX_THICKNESS || bThickness >= Truss::MAX_THICKNESS)
                 return;
 
             auto aConnection = std::find( member->nodeA->connected.begin(), member->nodeA->connected.end(), member->nodeB );
